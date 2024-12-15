@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.scrollable-bar {
+    width: 97.8%;
+    height: 10vh;
+    background-color: #f4f4f4;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    display: flex;
+}
+
+.option {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+.left{
+    height: 100vh;
+    width: 16vw;
+    font-size: 15px;
+    overflow-y: scroll;
+ 
+    
+}
+
+.left p{
+    padding: 0rem 2rem;
+}
+
+.left h2{
+    padding: 0rem 1rem;
+}
+
+.content{
+    display: flex;
+}
+
+.middle{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+
+.titleMiddle{
+    font-size: 3em;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 0.4rem;
+    font-weight: 0;
+}
+
+.btnDiv{
+    padding: 0rem 2rem;
+}
+
+.middle button{
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgba(4, 170, 109, 1);
+    color: white;
+}
+
+.HomeBtnLeft{
+    float: left;
+    color: white;
+    /* background-color: rgb(0, 165, 0); */
+    font-size: 1.2em;
+    padding: 0.8rem 1.1rem;
+}
+.NextBtnRight{
+    float: right;
+    margin-left: 54vw;
+    color: white;
+    /* background-color: rgb(0, 165, 0); */
+    font-size: 1.2em;
+    padding: 0.8rem 1.1rem;
+
+}
+.intro{
+    margin-top: 6rem;
+    padding: 2rem;
+    background-color:rgba(217, 238, 225, 1);
+}
+
+.introBtnStart{
+    font-size: 1em;
+    padding: 0.7rem 1.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.middle button:hover{
+    cursor: pointer;
+    background-color: rgb(9, 148, 97);
+}
+
+.hrzLine{
+    width: 98%;
+    border: none;
+    height: 1px;
+    transform: scaleY(0.5);
+    background-color: lightgray;
+    margin-top: 1.5rem;
+}
+
+.titleMiddle2{
+    font-size: 2em;
+    padding: 0rem 2rem;
+    font-weight: 300;
+}
+
+.subTitleMiddle2{
+    padding: 0rem 2rem;
+    font-size: 1.1em;
+}
+
+.mainCodeDiv{
+    padding: 0.8rem 0.8rem;
+}
+
+.codeDiv{
+    background-color: rgba(204, 202, 202, 0.349);
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.codeDiv p{
+    font-size: 1.4em;
+}
+
+.codeBox{
+    background-color: rgb(4, 169, 109);
+}
+
+.innerCodeBox{
+    background-color: white;
+    margin-left: 0.3rem;
+}
+
+.innerCodeBox code{
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.htmlItem{
+    color: rgb(128, 0, 0);
+}
+
+.codeText{
+    padding: 1rem 1rem;
+}
+
+.codeBoxBtn{
+    font-size: 1em;
+    padding: 0.6rem 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0rem;
+}
